@@ -1,0 +1,11 @@
+﻿namespace Dk.BankApp.Web.Data.Entities
+{
+    public class Account
+    {
+        public int Id { get; set; }
+        public decimal Balance { get; set; }
+        public int AccountNumber { get; set; }
+        public int ApplicationUserId { get; set; }
+        public ApplicationUser ApplicationUser { get; set; } // Her kullanıcının 1 tane Account'u olur.
+    }
+}
