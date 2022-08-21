@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\net-core-projeler\\Udemy.BankApp\\Dk.BankApp.Web\\Dk.BankApp.Web.csproj",
+      "projectUniqueName": "C:\\Users\\duhan\\Documents\\GitHub\\BankApp-AspNetCoreMVC5\\Dk.BankApp.Web\\Dk.BankApp.Web.csproj",
       "projectName": "Dk.BankApp.Web",
-      "projectPath": "D:\\net-core-projeler\\Udemy.BankApp\\Dk.BankApp.Web\\Dk.BankApp.Web.csproj",
+      "projectPath": "C:\\Users\\duhan\\Documents\\GitHub\\BankApp-AspNetCoreMVC5\\Dk.BankApp.Web\\Dk.BankApp.Web.csproj",
       "packagesPath": "C:\\Users\\duhan\\.nuget\\packages\\",
-      "outputPath": "D:\\net-core-projeler\\Udemy.BankApp\\Dk.BankApp.Web\\obj\\",
+      "outputPath": "C:\\Users\\duhan\\Documents\\GitHub\\BankApp-AspNetCoreMVC5\\Dk.BankApp.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\duhan\\AppData\\Roaming\\NuGet\\NuGet.Config",

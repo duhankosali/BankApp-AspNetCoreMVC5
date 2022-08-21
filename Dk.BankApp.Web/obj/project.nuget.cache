@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1mtI9REwH7YXH755LdNpN9VVpYwpr+uvl0f2XX/zE0ihZVgO1h4gXKQ5keRl7rVXiUGsi1cK4t/cOV7JEZBdRQ==",
+  "dgSpecHash": "K38kg79GKRpWNdrktIKPsXtaIZqcvsS61SGYeVsVa3Kl3B6lTtNAQGYOrPqToygaHJUjXd9wxSRLVnPdwRKaCA==",
   "success": true,
-  "projectFilePath": "D:\\net-core-projeler\\Udemy.BankApp\\Dk.BankApp.Web\\Dk.BankApp.Web.csproj",
+  "projectFilePath": "C:\\Users\\duhan\\Documents\\GitHub\\BankApp-AspNetCoreMVC5\\Dk.BankApp.Web\\Dk.BankApp.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\duhan\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\duhan\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
