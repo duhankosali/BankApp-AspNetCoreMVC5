@@ -1,0 +1,49 @@
+﻿@model List<AccountListModel>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-6">
+
+                <div class="card" style="width: 18rem;">
+          <img class="card-img-top" src="..." alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Kullanıcı Bilgileri</h5>
+            <p class="card-text">Ad: @ViewBag.FullName</p>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-primary">Kullanıcı Listesine Geri Dön</a>
+          </div>
+        </div>
+
+    </div>
+    <div class="col-6">
+        @if(Model != null)
+        {
+            @foreach(var account in Model)
+            {
+                <div class="card" style="width: 18rem;">
+                  <img class="card-img-top" src="..." alt="Card image cap">
+                  <div class="card-body">
+                    <h5 class="card-title">Hesap Numarası: @account.AccountNumber</h5>
+                    <p class="card-text">Bakiye Bilgisi: @account.Balance</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+            </div> 
+            }
+           
+        }
+        else
+        {
+            <div class="alert alert-info text-center">
+              <p class="lead">
+                  Kullanıcının hesabı bulunmamaktadır.
+              </p>
+            </div>
+        }
+
+
+    </div>
+</div>

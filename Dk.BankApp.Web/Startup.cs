@@ -1,4 +1,7 @@
 using Dk.BankApp.Web.Data.Context;
+using Dk.BankApp.Web.Data.Interfaces;
+using Dk.BankApp.Web.Data.Repositories;
+using Dk.BankApp.Web.Mapping;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -24,6 +27,14 @@ namespace Dk.BankApp.Web
             {
                 opt.UseSqlServer("server=DESKTOP-U8RG37D\\SQLSERVER; database=BankDb; integrated security=true;");
             });
+
+            
+            services.AddScoped<IApplicationUserRepository, ApplicationUserRepository>(); // Dependency Injection uygulayabilmek için öncelikle Interface ve Classýmýzý Scopedledik.
+            services.AddScoped<IAccountRepository, AccountRepository>(); // Dependency Injection uygulayabilmek için öncelikle Interface ve Classýmýzý Scopedledik.
+            services.AddScoped<IUserMapper, UserMapper>();
+            services.AddScoped<IAccountMapper, AccountMapper>();
+            services.AddScoped(typeof(IRepository<>), typeof(Repository<>)); // Generic Class ve Interface Scoped iþlemi yaparken typeOf kullanýlýr. !!
+
             services.AddControllersWithViews(); // Uygulamamda Controller ve View dosyalarýný kullanacaðýmý belirttim.
         }
 
