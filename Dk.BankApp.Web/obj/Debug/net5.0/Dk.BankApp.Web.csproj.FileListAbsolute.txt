@@ -137,3 +137,4 @@ C:\Users\duhan\Documents\GitHub\BankApp-AspNetCoreMVC5\Dk.BankApp.Web\obj\Debug\
 C:\Users\duhan\Documents\GitHub\BankApp-AspNetCoreMVC5\Dk.BankApp.Web\obj\Debug\net5.0\ref\Dk.BankApp.Web.dll
 C:\Users\duhan\Documents\GitHub\BankApp-AspNetCoreMVC5\Dk.BankApp.Web\obj\Debug\net5.0\Razor\Views\Account\Create.cshtml.g.cs
 C:\Users\duhan\Documents\GitHub\BankApp-AspNetCoreMVC5\Dk.BankApp.Web\obj\Debug\net5.0\Razor\Views\Account\GetByUserId.cshtml.g.cs
+C:\Users\duhan\Documents\GitHub\BankApp-AspNetCoreMVC5\Dk.BankApp.Web\obj\Debug\net5.0\Razor\Views\Account\SendMoney.cshtml.g.cs
